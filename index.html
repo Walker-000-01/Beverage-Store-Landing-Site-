@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Millanes Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="logo-container">
+            <a href="#" class="brand">
+                <img src="logo.jpg" alt="Millanes Logo" title="MILLANES STORE" width="60">
+                <span class="brand-name">Millanes Store</span>
+            </a>
+        </div>
+
+        <div class="cntr-nav" id="main-nav">
+            <a href="#home">Home</a>
+            <a href="#About Us">About Us</a>
+            <a href="#why choose Us">Why choose Us</a>
+            <a href="#shop">Shop</a>
+            <a href="#testimonials">Reviews</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <!-- mobile toggle (visible on small screens) -->
+        <button class="nav-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Open menu">
+            <span class="hamburger" aria-hidden="true"></span>
+        </button>
+
+        <i class="ri-menu-fill"></i>
+    </nav>
+    <main>
+        <section class="home-hero fade-in" id="home">
+            <video class="background-video" autoplay loop muted playsinline>
+                <source src="Coke ad.mp4" type="video/mp4">
+            </video>
+
+            <div class="hero-content">
+                <h1 class="hero-titled">Thirsty? We’ve Got You Covered!</h1>
+                <p class="hero-text">
+                    At Millanes Store, we bring you the ultimate refreshment — classic Coke, Pepsi, Royal, RC Cola,
+                    Sprite, Mountain Dew and more. Fast delivery, great prices, and cold drinks every time.
+                </p>
+                <a href="#shop" class="cta-btn">Shop Now</a>
+            </div>
+        </section>
+
+        <section id="About Us">
+            <div class="hero-content">
+                <div class="About">
+                    <h1 class="hero-title
+            discuss">
+                        <center>About Us</center>
+                    </h1>
+                    <p class="hero-text">
+                        Welcome to MILLANES Store, your trusted beverage distributor offering top brands like Coke,
+                        Royal, RC Cola, Sprite, and Mountain Dew.
+                        We started with a simple goal — to make quality beverages easily accessible to everyone.
+                        At MILLANES Store, we stand for quality, honesty, and customer satisfaction, ensuring every
+                        drink you enjoy is fresh and genuine.
+                        Our mission is simple: to refresh our community, one bottle at a time. 🥤
+                    </p>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="why choose Us">
+            <div class="about-section">
+                <h2 class="hero-title discuss">
+                    <center>Why choose Us</center>
+                </h2>
+                <ul class="hero-desc why-list">
+                    <p><b>At MILLANES Store, we believe every customer deserves the best refreshment experience. Here’s
+                            why people trust us:</p></b>
+                    <li><strong>Trusted Brands:</strong> We offer only the best beverages like Coke, Royal, RC Cola,
+                        Sprite, and Mountain Dew.</li>
+                    <li><strong>Reliable Distribution:</strong> Fast, consistent, and dependable delivery every time.
+                    </li>
+                    <li><strong>Affordable Prices:</strong> Enjoy top-quality drinks without overspending.</li>
+                    <li><strong>Customer First:</strong> We value our customers and provide excellent service in every
+                        transaction.</li>
+                    <li><strong>Quality Guaranteed:</strong> Every bottle is fresh, authentic, and handled with care.
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+
+
+
+
+
+
+        <section id="shop">
+            <div class="shop-section">
+                <h1 class="hero-title">
+                    <center>Shop</center>
+                    <p class="hero-desc">
+                        Browse our wide selection of refreshing beverages — from classic Coca-Cola and Pepsi, to fruity
+                        Royal and smooth RC Cola.
+
+                        Whether you’re looking for a quick refreshment, a party stock, or drinks for your business,
+                        we’ve got you covered!🥤
+                    </p>
+                </h1>
+                <!-- Product cards -->
+                <div style="display: flex; gap: 50px; flex-wrap: wrap;">
+                    <div class="card">
+                        <div class="circle">
+                            <img id="pepsi" src="Pepsi bottle.png" alt="Pepsi Logo" class="logo">
+                        </div>
+                        <img id="pepsi" src="Pepsi bottle.png" alt="Pepsi bottle" class="product_img">
+                        <div class="content">
+                            <h2>Pepsi</h2>
+                            <p>Pepsi is a cool, refreshing drink that satisfies your thirst and delights your taste
+                                buds.
+                                Our secret blend of flavors.</p>
+                            <h4 class="price">₱210 </h4>
+                            <h3 class="stock">Stock: 100 Case </h3>
+                            <a href="#">BUY NOW!!</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="circle">
+                            <img id="pepsi" src="Coke bottle.png" alt="Coke Logo" class="logo">
+                        </div>
+                        <img id="pepsi" src="Coke bottle.png" alt="Coke bottle" class="product_img">
+                        <div class="content">
+                            <h2>Coke</h2>
+                            <p>The classic taste that everyone loves! Perfect for any meal or celebration.
+                            </p>
+                            <h4 class="price">₱210 </h4>
+                            <h3 class="stock">Stock: 100 Case </h3>
+                            <a href="#">BUY NOW!!</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="circle">
+                            <img id="pepsi" src="Sprite bottle.png" alt="Sprite Logo" class="logo">
+                        </div>
+                        <img id="pepsi" src="Sprite bottle.png" alt="Sprite bottle" class="product_img">
+                        <div class="content">
+                            <h2>Sprite</h2>
+                            <p>Crisp, clean, and lemon-lime fresh — Sprite is the perfect thirst-quencher for hot days
+                                and party mixes.</p>
+                            <h4 class="price">₱210 </h4>
+                            <h3 class="stock">Stock: 100 Case </h3>
+                            <a href="#">BUY NOW!!</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="circle">
+                            <img id="pepsi" src="Mountain Dew bottle.png" alt="Mountain Dew Logo" class="logo">
+                        </div>
+                        <img id="pepsi" src="Mountain Dew bottle.png" alt="Mountain bottle" class="product_img">
+                        <div class="content">
+                            <h2>Mountain Dew</h2>
+                            <p>Packed with a citrus kick and bold energy — Mountain Dew is the perfect drink for those
+                                who live life to the fullest!</p>
+                            <h4 class="price">₱190 </h4>
+                            <h3 class="stock">Stock: 100 Case </h3>
+                            <a href="#">BUY NOW!!</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="circle">
+                            <img id="pepsi" src="Rc bottle.png" alt="Rc Logo" class="logo">
+                        </div>
+                        <img id="pepsi" src="Rc bottle.png" alt="Rc bottle" class="product_img">
+                        <div class="content">
+                            <h2>Rc Cola</h2>
+                            <p>Smooth, rich flavor at an affordable price — a great local favorite!</p>
+                            <h4 class="price">₱190 </h4>
+                            <h3 class="stock">Stock: 100 Case </h3>
+                            <a href="#">BUY NOW!!</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="circle">
+                            <img id="pepsi" src="Royal bottle.png" alt="royal Logo" class="logo">
+                        </div>
+                        <img id="pepsi" src="Royal bottle.png" alt="royal bottle" class="product_img">
+                        <div class="content">
+                            <h2>royal</h2>
+                            <p>Bursting with orange flavor — a fun and fruity drink for everyone!</p>
+                            <h4 class="price">₱390 </h4>
+                            <h3 class="stock">Stock: 100 Case </h3>
+                            <a href="#">BUY NOW!!</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="circle">
+                            <img id="pepsi" src="Sting bottle.png" alt="sting Logo" class="logo">
+                        </div>
+                        <img id="pepsi" src="Sting bottle.png" alt="sting bottle" class="product_img">
+                        <div class="content">
+                            <h2>Sting</h2>
+                            <p>Fuel your energy and stay alert with Sting! A powerful energy drink with a sweet, tangy
+                                flavor that boosts your day.</p>
+                            <h4 class="price">₱300 </h4>
+                            <h3 class="stock">Stock: 100 Case </h3>
+                            <a href="#">BUY NOW!!</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="circle">
+                            <img id="pepsi" src="Nest iced tea bottle.png" alt="nest tea Logo" class="logo">
+                        </div>
+                        <img id="pepsi" src="Nest iced tea bottle.png" alt="nest tea bottle" class="product_img">
+                        <div class="content">
+                            <h2>Nestea Iced Tea</h2>
+                            <p>Cool down with the refreshing taste of Nestea Iced Tea — the perfect blend of sweetness
+                                and tea goodness!</p>
+                            <h4 class="price">₱290 </h4>
+                            <h3 class="stock">Stock: 100 Case </h3>
+                            <a href="#">BUY NOW!!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="testimonials-section">
+            <div class="testimonials-inner">
+                <div class="test-header">
+                    <h2>Customer Review</h2>
+                    <p>Tell us what you think — At Millanes Store, your feedback helps us serve you better.</p>
+                </div>
+
+                <form id="test-form" class="test-form" aria-label="Submit a review">
+                    <input type="text" id="t-name" name="name" placeholder="Your name" required>
+                    <select id="t-rating" name="rating" required>
+                        <option value="">Rate: ★★★★★</option>
+                        <option value="5">5 - Excellent</option>
+                        <option value="4">4 - Very good</option>
+                        <option value="3">3 - Good</option>
+                        <option value="2">2 - Fair</option>
+                        <option value="1">1 - Poor</option>
+                    </select>
+                    <textarea id="t-review" name="review" rows="4" placeholder="Write your review..."
+                        required></textarea>
+                    <button type="submit" class="cta-btn">Submit Review</button>
+                </form>
+
+                <div class="test-list" id="testimonials-list" aria-live="polite">
+
+                </div>
+            </div>
+        </section>
+
+        <script>
+            (function () {
+                const STORAGE_KEY = 'millanes_testimonials';
+                const form = document.getElementById('test-form');
+                const list = document.getElementById('testimonials-list');
+
+                function renderStars(n) {
+                    n = Number(n) || 0;
+                    return '★'.repeat(n) + '☆'.repeat(5 - n);
+                }
+
+                function loadTestimonials() {
+                    try {
+                        const raw = localStorage.getItem(STORAGE_KEY);
+                        return raw ? JSON.parse(raw) : [
+                            { name: 'Rene Aguinaldo', rating: 5, review: 'I’ve been ordering from MILLANES Store for months now, and their service is always fast and reliable. The drinks are always fresh and well-stocked. Highly recommended!' },
+                            { name: 'Elsi Fuentes', rating: 4, review: 'MILLANES Store never disappoints! Their prices are fair, and they always deliver on time. Perfect for anyone who wants trusted and quality beverages' }
+                        ];
+                    } catch (e) {
+                        return [];
+                    }
+                }
+
+                function saveTestimonials(data) {
+                    try { localStorage.setItem(STORAGE_KEY, JSON.stringify(data)); } catch (e) { }
+                }
+
+                function renderTestimonials() {
+                    const items = loadTestimonials();
+                    list.innerHTML = items.map(it => `
+                        <article class="testimonial-card">
+                            <div class="testimonial-head">
+                                <strong class="t-name">${escapeHtml(it.name)}</strong>
+                                <span class="t-stars" aria-hidden="true">${renderStars(it.rating)}</span>
+                            </div>
+                            <p class="t-text">${escapeHtml(it.review)}</p>
+                        </article>
+                    `).join('');
+                }
+
+                function escapeHtml(s) {
+                    return String(s).replace(/[&<>"']/g, (m) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[m]));
+                }
+
+                form.addEventListener('submit', function (e) {
+                    e.preventDefault();
+                    const name = form['name'].value.trim();
+                    const rating = form['rating'].value;
+                    const review = form['review'].value.trim();
+                    if (!name || !rating || !review) return;
+                    const items = loadTestimonials();
+                    items.unshift({ name, rating: Number(rating), review, date: new Date().toISOString() });
+                    saveTestimonials(items);
+                    renderTestimonials();
+                    form.reset();
+                });
+
+                // initial render
+                renderTestimonials();
+            })();
+        </script>
+
+
+        <section id="contact">
+            <div class="contact-section">
+                <h1>
+                    <center>Contact Us</center>
+                </h1>
+                <h2>Have questions or want to partner with us? Reach out anytime!</h2>
+                <p>
+                    Phone Number: <a href="tel:+09816578227"
+                        style="color:var(--blue);text-decoration:underline;">09816578227</a>
+                </p>
+                <p>
+                    Email: <a href="ranilomillanes2@.com"
+                        style="color:var(--blue);text-decoration:underline;">ranilomillanes2@gmail.com</a>
+                </p>
+                <p> Address: 148-b perez st. freedom park - 6 Batasan Hills Quezon City
+                </p>
+                <p> Social Media:<a href="ranilomillanes2@.com" style="color:var(--blue);text-decoration:underline;">
+                        https://www.instagram.com/nightmareslll?igsh=eGR5Z2pjMmFoM3Rx </a>
+
+                </p>
+
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-nav">
+                    <a href="#home">Home</a>
+                    <a href="#About Us">About Us</a>
+                    <a href="#why choose Us">Why choose Us</a>
+                    <a href="#shop">Shop</a>
+                    <a href="#testimonials">Reviews</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <span>&copy; 2025 Millanes Store. All rights reserved.</span>
+                <span class="business-name">Millanes Store | Beverage Distributor</span>
+            </div>
+        </footer>
+
+        <script>
+            (function () {
+                const toggle = document.querySelector('.nav-toggle');
+                const nav = document.getElementById('main-nav');
+
+                if (!toggle || !nav) return;
+
+                function closeNav() {
+                    nav.classList.remove('open');
+                    toggle.setAttribute('aria-expanded', 'false');
+                    document.body.classList.remove('nav-open');
+                }
+
+                toggle.addEventListener('click', function () {
+                    const isOpen = nav.classList.toggle('open');
+                    toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+                    document.body.classList.toggle('nav-open', isOpen);
+                });
+
+                // close when clicking a nav link (mobile)
+                nav.addEventListener('click', function (e) {
+                    if (e.target.tagName === 'A' && nav.classList.contains('open')) closeNav();
+                });
+
+                // close on Escape
+                document.addEventListener('keydown', function (e) {
+                    if (e.key === 'Escape' && nav.classList.contains('open')) closeNav();
+                });
+
+                // optional: close when clicking outside nav on mobile
+                document.addEventListener('click', function (e) {
+                    if (!nav.contains(e.target) && !toggle.contains(e.target) && nav.classList.contains('open')) {
+                        closeNav();
+                    }
+                });
+            })();
+        </script>
+    </main>
+</body>
+
+</html>
